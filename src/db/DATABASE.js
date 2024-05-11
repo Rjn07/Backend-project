@@ -1,7 +1,7 @@
 
 
 import mongoose from "mongoose";
-const DB_NAME ="rajan"
+import { DB_NAME } from "../constent.js";
 
 
 const connectDB = async () => {
